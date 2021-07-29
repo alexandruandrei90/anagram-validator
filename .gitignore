@@ -1,0 +1,8 @@
+
+.terraform.lock.hcl
+anagrams.csv
+terraform.tfstate
+terraform.tfstate.backup
+.ipynb_checkpoints/generate_csv_file-checkpoint.ipynb
+.terraform/providers/registry.terraform.io/hashicorp/aws/3.51.0/darwin_amd64/terraform-provider-aws_v3.51.0_x5
+lambda.zip
