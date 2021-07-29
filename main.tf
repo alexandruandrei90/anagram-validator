@@ -33,8 +33,6 @@ assume_role_policy = <<EOF
 EOF
 }
 
-# the iam policy resource is from: https://hands-on.cloud/terraform-deploy-lambda-to-copy-files-between-s3-buckets/
-#policy also had         "s3:CopyObject",
 resource "aws_iam_policy" "lambda_policy" {
   name        = "lambda_policy"
   description = "Lists policies which allow access to S3 and to write logs"
